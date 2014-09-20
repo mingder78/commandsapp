@@ -1,4 +1,9 @@
 Commandsapp::Application.routes.draw do
+  resources :high_scores
+
+
+  get "greetings/hello"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
