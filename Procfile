@@ -1,1 +1,1 @@
-web: bundle exec rails server -p $PORT -e $RACK_ENV
+web: bundle exec rails server -d -p $PORT -e $RACK_ENV
